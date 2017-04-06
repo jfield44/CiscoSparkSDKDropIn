@@ -1,0 +1,6 @@
+framework module CiscoSparkSDKDropIn {
+  umbrella header "CiscoSparkSDKDropIn-umbrella.h"
+
+  export *
+  module * { export * }
+}

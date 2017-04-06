@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34EAA7071E96BD1200D8DC9A /* SparkMediaHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EAA7031E96BD1200D8DC9A /* SparkMediaHelper.swift */; };
+		34EAA7081E96BD1200D8DC9A /* SparkMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EAA7051E96BD1200D8DC9A /* SparkMediaView.swift */; };
+		3DC4920ADBBAA6ABD06FE1088437E902 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9AE3A79355BE86353361212779AD9EE2 /* CiscoSparkSDKDropIn-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7E6B566410B5B83784F3C65C8D41F6 /* CiscoSparkSDKDropIn-dummy.m */; };
+		B0FF43614CBB65D595B3EA7A64EDF5E1 /* Pods-CiscoSparkSDKDropIn_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A95BC8DE0F82843E50FE1464C914E91 /* Pods-CiscoSparkSDKDropIn_Tests-dummy.m */; };
+		BC91E126C6E4A7AE13A338B9313400BD /* CiscoSparkSDKDropIn-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10E36C0B383FC1D5C6867F7A3E1A24A2 /* CiscoSparkSDKDropIn-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5C0ABAE07CDCB9B0C98E0D7E4A0B96E /* Pods-CiscoSparkSDKDropIn_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B3AD24099EEFCC5CD723B5D2099296 /* Pods-CiscoSparkSDKDropIn_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9985B350DDC7C04EA30E77E8B502723 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2486AE4F2B5B5368E522E40684DA66D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7668FA2152C824892B0F9D8597BA05BE;
+			remoteInfo = CiscoSparkSDKDropIn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C64969FC0482D7CB86B4F804C31D40 /* Pods_CiscoSparkSDKDropIn_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CiscoSparkSDKDropIn_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E36C0B383FC1D5C6867F7A3E1A24A2 /* CiscoSparkSDKDropIn-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CiscoSparkSDKDropIn-umbrella.h"; sourceTree = "<group>"; };
+		20673F7E3FB590CE1CB9CF6A7F8FC067 /* Pods-CiscoSparkSDKDropIn_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CiscoSparkSDKDropIn_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		23BE766BECBE07F69A55E4CBF69BF4AA /* CiscoSparkSDKDropIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CiscoSparkSDKDropIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2415A0972EABB1B49D0505938D5AD0D7 /* Pods-CiscoSparkSDKDropIn_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CiscoSparkSDKDropIn_Tests-resources.sh"; sourceTree = "<group>"; };
+		30B3AD24099EEFCC5CD723B5D2099296 /* Pods-CiscoSparkSDKDropIn_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CiscoSparkSDKDropIn_Tests-umbrella.h"; sourceTree = "<group>"; };
+		34EAA7031E96BD1200D8DC9A /* SparkMediaHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkMediaHelper.swift; sourceTree = "<group>"; };
+		34EAA7041E96BD1200D8DC9A /* SparkMediaSDKAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SparkMediaSDKAssets.xcassets; sourceTree = "<group>"; };
+		34EAA7051E96BD1200D8DC9A /* SparkMediaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkMediaView.swift; sourceTree = "<group>"; };
+		34EAA7061E96BD1200D8DC9A /* SparkMediaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SparkMediaView.xib; sourceTree = "<group>"; };
+		4A95BC8DE0F82843E50FE1464C914E91 /* Pods-CiscoSparkSDKDropIn_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CiscoSparkSDKDropIn_Tests-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		765D1A78EA0976E75A075476009A6903 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85CAD9E960B1DA06A6ED6E2E529273E5 /* Pods-CiscoSparkSDKDropIn_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CiscoSparkSDKDropIn_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A40B7B86F9293AD4E34B0CB92DF66A61 /* Pods-CiscoSparkSDKDropIn_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CiscoSparkSDKDropIn_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AE7185072775BA155A2B4CD3F876B7E5 /* CiscoSparkSDKDropIn-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CiscoSparkSDKDropIn-prefix.pch"; sourceTree = "<group>"; };
+		B0E78692AB2D7013462ED1BBEE539DF7 /* CiscoSparkSDKDropIn.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CiscoSparkSDKDropIn.xcconfig; sourceTree = "<group>"; };
+		C372E2265D47776FB241FC043B805AC6 /* Pods-CiscoSparkSDKDropIn_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CiscoSparkSDKDropIn_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D2873129D508B5E620B1248E96452AA5 /* Pods-CiscoSparkSDKDropIn_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CiscoSparkSDKDropIn_Tests.modulemap"; sourceTree = "<group>"; };
+		E4763A05B7CCCBFB2048D03FB7316B5B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F84B3677B61ED3944A738FEC4837F37E /* CiscoSparkSDKDropIn.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CiscoSparkSDKDropIn.modulemap; sourceTree = "<group>"; };
+		F906168D68BF48CB61E0B7BAF91D76B3 /* Pods-CiscoSparkSDKDropIn_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CiscoSparkSDKDropIn_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FD7E6B566410B5B83784F3C65C8D41F6 /* CiscoSparkSDKDropIn-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CiscoSparkSDKDropIn-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		615906455B9EE6CE7067199E5C07FEB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC4920ADBBAA6ABD06FE1088437E902 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78820F332A9B735AE67C6BB77569F437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9985B350DDC7C04EA30E77E8B502723 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		659988EE9152D1E19323C20E72BBD193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23BE766BECBE07F69A55E4CBF69BF4AA /* CiscoSparkSDKDropIn.framework */,
+				03C64969FC0482D7CB86B4F804C31D40 /* Pods_CiscoSparkSDKDropIn_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9AB15D29867E7A649D634E93545F3352 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				659988EE9152D1E19323C20E72BBD193 /* Products */,
+				94FCEB7E40B288BC88284282B9FDE308 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		94FCEB7E40B288BC88284282B9FDE308 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C15FB4148D68F52CFA01025F4AFF3AD1 /* Pods-CiscoSparkSDKDropIn_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9AB15D29867E7A649D634E93545F3352 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFEB2D222EDCE1392627B03F5BE8609D /* CiscoSparkSDKDropIn */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFEB2D222EDCE1392627B03F5BE8609D /* CiscoSparkSDKDropIn */ = {
+			isa = PBXGroup;
+			children = (
+				C1E93870437CE8E37A45E6F47639D1DE /* CiscoSparkSDKDropIn */,
+				FCE081A2729877DB270CA21AC9D9E20E /* Support Files */,
+			);
+			name = CiscoSparkSDKDropIn;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C15FB4148D68F52CFA01025F4AFF3AD1 /* Pods-CiscoSparkSDKDropIn_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E4763A05B7CCCBFB2048D03FB7316B5B /* Info.plist */,
+				D2873129D508B5E620B1248E96452AA5 /* Pods-CiscoSparkSDKDropIn_Tests.modulemap */,
+				85CAD9E960B1DA06A6ED6E2E529273E5 /* Pods-CiscoSparkSDKDropIn_Tests-acknowledgements.markdown */,
+				C372E2265D47776FB241FC043B805AC6 /* Pods-CiscoSparkSDKDropIn_Tests-acknowledgements.plist */,
+				4A95BC8DE0F82843E50FE1464C914E91 /* Pods-CiscoSparkSDKDropIn_Tests-dummy.m */,
+				F906168D68BF48CB61E0B7BAF91D76B3 /* Pods-CiscoSparkSDKDropIn_Tests-frameworks.sh */,
+				2415A0972EABB1B49D0505938D5AD0D7 /* Pods-CiscoSparkSDKDropIn_Tests-resources.sh */,
+				30B3AD24099EEFCC5CD723B5D2099296 /* Pods-CiscoSparkSDKDropIn_Tests-umbrella.h */,
+				20673F7E3FB590CE1CB9CF6A7F8FC067 /* Pods-CiscoSparkSDKDropIn_Tests.debug.xcconfig */,
+				A40B7B86F9293AD4E34B0CB92DF66A61 /* Pods-CiscoSparkSDKDropIn_Tests.release.xcconfig */,
+			);
+			name = "Pods-CiscoSparkSDKDropIn_Tests";
+			path = "Target Support Files/Pods-CiscoSparkSDKDropIn_Tests";
+			sourceTree = "<group>";
+		};
+		C1E93870437CE8E37A45E6F47639D1DE /* CiscoSparkSDKDropIn */ = {
+			isa = PBXGroup;
+			children = (
+				C959B3575729AAE472EA7C266B329E04 /* Classes */,
+			);
+			path = CiscoSparkSDKDropIn;
+			sourceTree = "<group>";
+		};
+		C959B3575729AAE472EA7C266B329E04 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				34EAA7031E96BD1200D8DC9A /* SparkMediaHelper.swift */,
+				34EAA7051E96BD1200D8DC9A /* SparkMediaView.swift */,
+				34EAA7041E96BD1200D8DC9A /* SparkMediaSDKAssets.xcassets */,
+				34EAA7061E96BD1200D8DC9A /* SparkMediaView.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FCE081A2729877DB270CA21AC9D9E20E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F84B3677B61ED3944A738FEC4837F37E /* CiscoSparkSDKDropIn.modulemap */,
+				B0E78692AB2D7013462ED1BBEE539DF7 /* CiscoSparkSDKDropIn.xcconfig */,
+				FD7E6B566410B5B83784F3C65C8D41F6 /* CiscoSparkSDKDropIn-dummy.m */,
+				AE7185072775BA155A2B4CD3F876B7E5 /* CiscoSparkSDKDropIn-prefix.pch */,
+				10E36C0B383FC1D5C6867F7A3E1A24A2 /* CiscoSparkSDKDropIn-umbrella.h */,
+				765D1A78EA0976E75A075476009A6903 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CiscoSparkSDKDropIn";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7D4E82127416375E6607457FF85337DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC91E126C6E4A7AE13A338B9313400BD /* CiscoSparkSDKDropIn-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4B3F0241978F91AC81DC70F4DE1CBB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C0ABAE07CDCB9B0C98E0D7E4A0B96E /* Pods-CiscoSparkSDKDropIn_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A99C31C556DA9E80F43A65225D3506D /* Pods-CiscoSparkSDKDropIn_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A52DBFBBF1BD347B8654155107B9EEE1 /* Build configuration list for PBXNativeTarget "Pods-CiscoSparkSDKDropIn_Tests" */;
+			buildPhases = (
+				D53214AAF66F0FCBC19DC330AF4EDA32 /* Sources */,
+				78820F332A9B735AE67C6BB77569F437 /* Frameworks */,
+				8C4B3F0241978F91AC81DC70F4DE1CBB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF0840B3A9CA1CE2885B082AB0A4FC7D /* PBXTargetDependency */,
+			);
+			name = "Pods-CiscoSparkSDKDropIn_Tests";
+			productName = "Pods-CiscoSparkSDKDropIn_Tests";
+			productReference = 03C64969FC0482D7CB86B4F804C31D40 /* Pods_CiscoSparkSDKDropIn_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7668FA2152C824892B0F9D8597BA05BE /* CiscoSparkSDKDropIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD227BB2504F47664C0C975154EAAB2 /* Build configuration list for PBXNativeTarget "CiscoSparkSDKDropIn" */;
+			buildPhases = (
+				66C1781957773184418E839840DB69A6 /* Sources */,
+				615906455B9EE6CE7067199E5C07FEB0 /* Frameworks */,
+				7D4E82127416375E6607457FF85337DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CiscoSparkSDKDropIn;
+			productName = CiscoSparkSDKDropIn;
+			productReference = 23BE766BECBE07F69A55E4CBF69BF4AA /* CiscoSparkSDKDropIn.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					7668FA2152C824892B0F9D8597BA05BE = {
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 659988EE9152D1E19323C20E72BBD193 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7668FA2152C824892B0F9D8597BA05BE /* CiscoSparkSDKDropIn */,
+				2A99C31C556DA9E80F43A65225D3506D /* Pods-CiscoSparkSDKDropIn_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66C1781957773184418E839840DB69A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34EAA7081E96BD1200D8DC9A /* SparkMediaView.swift in Sources */,
+				34EAA7071E96BD1200D8DC9A /* SparkMediaHelper.swift in Sources */,
+				9AE3A79355BE86353361212779AD9EE2 /* CiscoSparkSDKDropIn-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53214AAF66F0FCBC19DC330AF4EDA32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FF43614CBB65D595B3EA7A64EDF5E1 /* Pods-CiscoSparkSDKDropIn_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF0840B3A9CA1CE2885B082AB0A4FC7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CiscoSparkSDKDropIn;
+			target = 7668FA2152C824892B0F9D8597BA05BE /* CiscoSparkSDKDropIn */;
+			targetProxy = 2486AE4F2B5B5368E522E40684DA66D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		286EA5241B9FD8B7E7F9495C2635BFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20673F7E3FB590CE1CB9CF6A7F8FC067 /* Pods-CiscoSparkSDKDropIn_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CiscoSparkSDKDropIn_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CiscoSparkSDKDropIn_Tests/Pods-CiscoSparkSDKDropIn_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CiscoSparkSDKDropIn_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		343C06FCC8FE2C92384B8B401F7A4181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A40B7B86F9293AD4E34B0CB92DF66A61 /* Pods-CiscoSparkSDKDropIn_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CiscoSparkSDKDropIn_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CiscoSparkSDKDropIn_Tests/Pods-CiscoSparkSDKDropIn_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CiscoSparkSDKDropIn_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9905CED3CEB9BE09CB7F092FA6DAFDE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0E78692AB2D7013462ED1BBEE539DF7 /* CiscoSparkSDKDropIn.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CiscoSparkSDKDropIn/CiscoSparkSDKDropIn-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CiscoSparkSDKDropIn/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CiscoSparkSDKDropIn/CiscoSparkSDKDropIn.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CiscoSparkSDKDropIn;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE83CE18B3F6593FFEE46D418DBBDD54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0E78692AB2D7013462ED1BBEE539DF7 /* CiscoSparkSDKDropIn.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CiscoSparkSDKDropIn/CiscoSparkSDKDropIn-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CiscoSparkSDKDropIn/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CiscoSparkSDKDropIn/CiscoSparkSDKDropIn.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CiscoSparkSDKDropIn;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FD227BB2504F47664C0C975154EAAB2 /* Build configuration list for PBXNativeTarget "CiscoSparkSDKDropIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE83CE18B3F6593FFEE46D418DBBDD54 /* Debug */,
+				9905CED3CEB9BE09CB7F092FA6DAFDE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A52DBFBBF1BD347B8654155107B9EEE1 /* Build configuration list for PBXNativeTarget "Pods-CiscoSparkSDKDropIn_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286EA5241B9FD8B7E7F9495C2635BFEA /* Debug */,
+				343C06FCC8FE2C92384B8B401F7A4181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

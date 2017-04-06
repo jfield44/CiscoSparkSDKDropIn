@@ -1,0 +1,16 @@
+PODS:
+  - CiscoSparkSDKDropIn (0.1.0)
+
+DEPENDENCIES:
+  - CiscoSparkSDKDropIn (from `../`)
+
+EXTERNAL SOURCES:
+  CiscoSparkSDKDropIn:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CiscoSparkSDKDropIn: a76acfa9b18de0817b91b0732d97d825d76d9c07
+
+PODFILE CHECKSUM: d6ac4b5d52e1e94b9f57777650485967c075ac34
+
+COCOAPODS: 1.2.1.rc.1
